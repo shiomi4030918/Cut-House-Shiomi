@@ -1,0 +1,186 @@
+body{
+    margin:0px;
+}
+header{
+    height: 85px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1.0);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    box-shadow:0px 2px rgba(52, 52, 52, 0.7);
+}
+.header-right a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:18px;
+}
+.logo1{
+    width: 150px;
+    height: 85px;
+    float: left;
+    margin-left: 80px;
+}
+.header-right {
+    float: right;
+    margin-right: 50px;
+}
+.header-right a{
+    line-height: 85px;
+    padding: 0 50px;
+    color: white;
+    display:block;
+    float: left;
+    transition: all 0.5s;
+}
+.header-right a:hover {
+    background-color: rgba(138, 138, 138, 0.3);
+}
+.photo1{
+    height:800px;
+    background-image: url(IMG_6733_Fotor.jpg);
+    background-size:cover;
+    position:relative;
+}
+.photo1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, #000000,30%, transparent);
+}
+.main{
+    width:100%;
+    vertical-align: bottom;
+}
+.about{
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+.about h5{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+.about h1{
+    padding-top:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about p{
+    padding-top:25px;
+    padding-bottom:200px;
+    line-height: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about h5,h1,p{
+    padding-left:200px;
+    color:aliceblue;
+    margin:0px;
+}
+.logo2{
+    max-width:50%;
+    margin-right:70px;
+    margin-bottom:200px;
+}
+.contents-box1{
+    display:flex;
+}
+.sns h5{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left:200px;
+}
+.contents-box-sns{
+    display:flex;
+    margin: 0 auto ;
+    margin: 0 200px;
+}
+.s{
+    width:33.3%;
+    text-align: center;
+}
+.fa-brands{
+    padding-top: 150px;
+}
+.btn{
+    display: inline-block;
+    margin: 50px 0 250px 0 ;
+    border: 2px solid black;
+    width: 110px;
+    height: 28px;
+    color: aliceblue;
+    background-color: #000000;
+    text-decoration: none;
+    box-shadow:0px 5px rgba(52, 52, 52, 0.7);
+    border-radius: 3px;
+}
+.btn:hover{
+    color: rgb(77, 77, 230);
+}
+.btn:active{
+    position: relative;
+    top:5px;
+    box-shadow: none;
+}
+.price{
+    background-color: #000000;
+}
+.contents-box2 h5{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left:200px;
+    color: aliceblue;
+}
+.photo2{
+    display: flex;
+    margin-top:190px;
+    margin-bottom:130px;
+}
+.price-1,.price-2{
+    width:350px;
+}
+.price-2{
+    margin-left:50px;
+}
+.gallery h5{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left:200px;
+}
+.gallerys{
+    flex-wrap:wrap;
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+}
+.gallery h5{
+    padding-bottom: 50px;
+}
+.gallerys img{
+    width:20%;
+    height:240px;
+    margin:20px;
+    border: 7px solid black;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #000000;
+}
+footer h5{
+    color: aliceblue;
+    line-height: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.id{
+    padding-top:85px;
+    display: inline-block;
+}
+.id1{
+    padding-top:280px;
+    display: inline-block;
+}

@@ -40,9 +40,9 @@ header{
     height:800px;
     background-image: url(IMG_6733_Fotor.jpg);
     background-size:cover;
+    background-position: center center;
     position:relative;
-　　　　　　　　background-position: center center;
-    width: 100%;
+    width:100%;
 }
 .photo1::before {
     content: "";

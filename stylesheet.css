@@ -42,6 +42,7 @@ header{
     background-size:cover;
     position:relative;
 　　　　　　　　background-position: center center;
+    width: 100%;
 }
 .photo1::before {
     content: "";

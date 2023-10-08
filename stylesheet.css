@@ -199,9 +199,24 @@ nav a:hover{
     font-family:'Courier New', Courier, monospace;
     padding-left: 200px;
 }
+.artist a{
+    padding-top: 95px;
+    color: white;
+}
 .artists{
     display: flex;
-    margin: 0 auto;
+    padding-bottom: 500px;
+}
+.artists h1{
+    color: #000000;
+}
+.otousan{
+    text-align: center;
+    width:50%;
+}
+.ayuto{
+    text-align: center;
+    width:50%;
 }
 .sns h5{
     font-size: 15px;

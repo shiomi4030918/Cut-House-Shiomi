@@ -1,5 +1,7 @@
-@media (max-width:1280px){
-
+@media (min-width:600px){
+    .hamberger{
+        display: none;
+    }
 }
 @media (max-width:600px) {
 
@@ -21,16 +23,19 @@
         height: 500px;
     }
     .contents{
-        padding: 150px 50px 50px 50px;
-    }
-    .contents h5{
-        margin-bottom: 100px;
+        padding: 70px 50px 50px 50px;
     }
     .logo2{
         display: none;
     }
     .about h5,h1,p{
         padding: 0;
+    }
+    .about h6{
+        padding: 0;
+    }
+    .artist h5{
+        padding-left: 50px;
     }
     .sns h5{
         padding-left: 50px;
@@ -74,6 +79,15 @@
     }
     .gallerys img{
         width:50%;
-        height:180px;
+        height:170px;
+    }
+    footer h5{
+        line-height: 40px;
+    }
+    footer br{
+        display:block;
+    }
+    footer span{
+        padding:0 0 30px 0;
     }
 }
